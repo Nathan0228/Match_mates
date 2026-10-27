@@ -1,0 +1,13 @@
+.theme-checkbox{position:relative;display:inline-flex;align-items:center;gap:10px;min-height:44px;color:#43644f;font-size:13px;line-height:1.5;cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent}
+.theme-checkbox input{position:absolute;width:1px;height:1px;margin:0;opacity:0}
+.theme-checkbox__box{display:grid;place-items:center;width:21px;height:21px;flex:none;border:1.5px solid #a7c3a9;border-radius:7px;background:#fff;box-shadow:0 1px 3px #315b3f12;transition:background .2s,border-color .2s,box-shadow .2s,transform .2s}
+.theme-checkbox__box svg{color:#fff;opacity:0;transform:scale(.6);transition:opacity .16s,transform .2s}
+.theme-checkbox:not(.theme-checkbox--disabled):hover input:not(:checked)+.theme-checkbox__box{border-color:#5c9770;background:#f6faf5}
+.theme-checkbox input:checked+.theme-checkbox__box{border-color:#3f8058;background:#3f8058;box-shadow:0 2px 6px #315b3f30}
+.theme-checkbox input:checked+.theme-checkbox__box svg{opacity:1;transform:scale(1)}
+.theme-checkbox input:focus-visible+.theme-checkbox__box{outline:3px solid #a2c8a7;outline-offset:3px}
+.theme-checkbox:active .theme-checkbox__box{transform:scale(.92)}
+.theme-checkbox--disabled{opacity:.5;cursor:not-allowed}
+.theme-checkbox--disabled:active .theme-checkbox__box{transform:none}
+@media(prefers-reduced-motion:reduce){.theme-checkbox__box,.theme-checkbox__box svg{transition:none}}
+@media(forced-colors:active){.theme-checkbox__box{forced-color-adjust:none;border-color:ButtonText;background:Canvas}.theme-checkbox input:checked+.theme-checkbox__box{border-color:Highlight;background:Highlight}.theme-checkbox input:checked+.theme-checkbox__box svg{color:HighlightText}}

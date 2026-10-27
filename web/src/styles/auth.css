@@ -1,0 +1,29 @@
+.modal-backdrop{position:fixed;inset:0;background:#1e3b31a8;z-index:30;display:grid;place-items:center;padding:20px}
+.auth-modal{background:#fff;width:100%;max-width:450px;max-height:95vh;overflow:auto;border-radius:22px;padding:34px 39px 29px;position:relative;box-shadow:0 25px 90px #102b2350}
+.modal-close{position:absolute;right:22px;top:19px;background:none;border:0;color:#708679}
+.modal-icon{height:52px;width:52px;margin-bottom:20px}
+.modal-icon img{display:block;width:100%;height:100%}
+.auth-modal .section-kicker{font-size:9px}
+.auth-modal h2{font-size:28px;letter-spacing:-1px;margin:13px 0 6px}
+.auth-modal>p{font-size:12px;line-height:1.8;color:#7e8f83;margin:0 0 23px}
+.auth-modal label,.profile-form label{display:block;font-size:12px;font-weight:700;color:#405b4e;margin:15px 0}
+.auth-modal input,.auth-modal select,.profile-form input,.profile-form select,.profile-form textarea{width:100%;border:1px solid #dce6db;background:#fafcf8;border-radius:9px;padding:12px 13px;outline:none;margin-top:7px;color:#294b3e}
+.auth-modal input:focus,.auth-modal select:focus,.profile-form input:focus,.profile-form select:focus,.profile-form textarea:focus{border-color:#7caf8b}
+.auth-choice-pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.auth-fixed-hint{margin:-4px 0 12px;color:#8c9a90;font-size:11px;line-height:1.6}
+.submit-btn{width:100%;margin:12px 0 15px}
+.form-error{background:#fff1ed;color:#b45040;padding:10px 12px;border-radius:8px;font-size:12px;line-height:1.6}
+.form-success{background:#edf5eb;color:#3a7150;padding:10px 12px;border-radius:8px;font-size:12px;line-height:1.6}
+.switch-mode{text-align:center;color:#8c9a90;font-size:12px}
+.switch-mode button{border:0;background:none;color:#41775a;font-weight:700}
+.modal-foot{display:block;border-top:1px solid #eff1ed;margin-top:24px;padding-top:15px;font-size:10px;color:#9daa9e;line-height:1.7}
+.dev-code{padding:9px 12px;background:#f7f1e7;border-radius:8px;font-size:12px;color:#8c6847}
+.recover-btn{display:block;margin:0 auto 13px;border:0;background:none;color:#6b9679;font-size:11px;text-decoration:underline}
+
+.auth-field__control{display:flex;align-items:center;gap:10px;width:100%;margin-top:7px;border:1px solid #dce6db;background:#fafcf8;border-radius:9px;transition:border-color .2s,box-shadow .2s}
+.auth-field__control:focus-within{border-color:#7caf8b;box-shadow:0 0 0 3px #dceedd}
+.auth-field__icon{display:block;width:18px;height:18px;flex:none;margin-left:13px;pointer-events:none}
+.auth-modal .auth-field__control input{min-width:0;flex:1;width:100%;min-height:42px;border:0;background:transparent;border-radius:0;margin:0;padding:10px 0;outline:0;color:#294b3e;font-size:12px}
+.auth-field__suffix{flex:none;padding:0 12px 0 0;color:#63836e;font-size:11px;font-weight:600;white-space:nowrap}
+
+

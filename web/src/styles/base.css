@@ -1,0 +1,43 @@
+:root{font-family:'DM Sans','Noto Sans SC',sans-serif;color:#203b35;background:#f8f9f5;font-synthesis:none}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+a{color:inherit}
+.wrap{max-width:1240px;margin:auto;padding:0 32px}
+.site-header{height:82px;background:#f8f9f5;border-bottom:1px solid #e8ece5;position:sticky;top:0;z-index:20}
+.header-inner{height:100%;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.brand{display:flex;align-items:center;gap:5px;border:0;background:none;color:#1e4037;font-size:25px;font-weight:700;letter-spacing:-2px;padding:0}
+.brand-logo{display:block;width:34px;height:34px;flex:none;margin-right:3px}
+.brand-dot{color:#f0a787}
+.brand-copy{display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+.brand-name{line-height:1.1;white-space:nowrap}
+.brand-tagline{position:relative;display:block;width:174px;height:22px;color:#739083;font-size:9px;font-weight:700;line-height:1.25;letter-spacing:0}
+.brand-tagline-item{position:absolute;inset:2px auto auto 0;display:block;animation:brand-tagline-cycle 8s ease-in-out infinite}
+.brand-tagline-english{white-space:nowrap;letter-spacing:2.3px}
+.brand-tagline-chinese{animation-delay:-4s;white-space:nowrap}
+@keyframes brand-tagline-cycle{0%,42%{opacity:1;transform:translateY(0)}50%,92%{opacity:0;transform:translateY(-3px)}100%{opacity:1;transform:translateY(0)}}
+.nav{display:flex;gap:38px;margin-left:auto}
+.nav button,.text-btn{border:0;background:none;color:#405b52;font-size:13px;font-weight:600;padding:10px 0}
+.nav button:hover,.text-btn:hover{color:#ed9678}
+.header-actions{display:flex;align-items:center;gap:25px}
+.account-menu{position:relative}
+.account-trigger{display:grid;place-items:center;border:0;border-radius:50%;padding:3px;background:transparent}
+.account-trigger:focus-visible{outline:2px solid #4c8b62;outline-offset:3px}
+.account-dropdown{position:absolute;right:0;top:calc(100% + 10px);min-width:148px;padding:5px;background:#fff;border:1px solid #e4ece4;border-radius:10px;box-shadow:0 12px 30px #274b3820}
+.account-dropdown button{width:100%;border:0;border-radius:6px;background:none;color:#3a5d49;text-align:left;padding:10px 12px;font-size:12px;font-weight:600;white-space:nowrap;display:flex;align-items:center;gap:9px}
+.account-dropdown button:hover{background:#edf4ed}
+.account-dropdown button:focus-visible{outline:2px solid #8fbea0;outline-offset:-2px}
+.pill-btn{border:0;background:#294f42;color:#fff;border-radius:100px;padding:17px 26px;font-weight:600;font-size:14px;display:inline-flex;align-items:center;justify-content:center;gap:20px;box-shadow:0 10px 23px #1f514022;transition:transform .2s,background .2s}
+.pill-btn:hover{transform:translateY(-2px);background:#1e4035}
+.pill-btn.small{padding:12px 18px;font-size:12px;gap:12px}
+.menu-btn{display:none;border:0;background:none;color:#294f42}
+footer{background:#f8f9f5}
+.footer-inner{min-height:120px;display:flex;align-items:center;gap:28px;color:#95a39a;font-size:11px}
+.footer-inner .brand{transform:scale(.85);transform-origin:left center}
+.footer-inner p{margin-right:auto}
+.footer-inner > span+span{margin-left:20px}
+.tmdb-credit{display:flex;align-items:center;gap:9px;flex-basis:100%;padding-bottom:15px;color:#9daaa0}
+.tmdb-credit img{display:block;width:38px;height:38px;object-fit:contain}
+.tmdb-credit small{font-size:10px;line-height:1.5}

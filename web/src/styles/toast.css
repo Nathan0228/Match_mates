@@ -1,0 +1,32 @@
+.toast {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px;
+  border-radius: 10px;
+  background: #2a5643;
+  box-shadow: 0 10px 30px #183b2b40;
+  color: #fff;
+  font-size: 12px;
+  animation: toast-fade 3s linear forwards;
+}
+
+.toast button {
+  display: flex;
+  border: 0;
+  background: none;
+  color: #fff;
+}
+
+@keyframes toast-fade {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toast { animation: none; }
+}

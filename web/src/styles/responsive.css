@@ -1,0 +1,94 @@
+@media(max-width:900px){.hero-inner{grid-template-columns:1fr 1fr;min-height:530px}
+.hero h1{font-size:48px}
+.hero-art{height:430px}
+.hero-trust{margin-top:40px}
+.match-layout{grid-template-columns:1fr 1fr;gap:15px}
+.profile-stack{margin:0}
+.example-card{width:360px}
+.example-1{left:30px}
+.safety-copy{padding-left:25px}
+.orbit-a{left:20px}
+.orbit-b{right:0}
+.orbit-c{left:15px}
+}
+@media(max-width:700px){.wrap{padding:0 21px}
+.site-header{height:68px}
+.header-inner{gap:10px}
+.brand{font-size:22px}
+.brand-logo{width:30px;height:30px}
+.brand-tagline{width:100px;height:24px;font-size:8px}
+.brand-tagline-english{letter-spacing:1.5px}
+.brand-tagline-chinese{white-space:normal}
+.nav{display:none;position:absolute;top:68px;left:0;right:0;background:#f8f9f5;flex-direction:column;gap:0;padding:8px 21px 18px;border-bottom:1px solid #e4ebe3;box-shadow:0 18px 25px #28452d12}
+.nav.open{display:flex}
+.nav button{text-align:left;padding:12px 0}
+.header-actions{margin-left:auto;gap:10px}
+.header-actions .text-btn{display:none}
+.menu-btn{display:block}
+.pill-btn.small{padding:10px 13px;font-size:11px}
+.hero-inner{grid-template-columns:1fr;padding-top:56px}
+.hero-copy{padding-bottom:28px}
+.hero h1{font-size:50px;letter-spacing:-3px}
+.hero-sub{font-size:13px}
+.hero-buttons{gap:20px}
+.hero-trust{margin:42px 0 0}
+.hero-art{height:360px;margin:0 0 25px;border-radius:47% 47% 8% 8%}
+.mountain-back{top:170px}
+.mountain-front{top:220px}
+.sun{top:45px}
+.person-a{left:115px}
+.person-b{left:170px}
+.hero-bottom{height:55px}
+.intro-section,.match-section,.safety-section{padding:72px 0}
+.section-top{display:block}
+.section-top p{margin-top:20px}
+.section-top h2,.match-copy h2,.safety-copy h2,.cta-inner h2{font-size:38px}
+.step-grid{grid-template-columns:1fr;gap:12px}
+.step-card{min-height:240px}
+.step-doodle{height:80px}
+.doodle{width:70px;height:70px;font-size:40px}
+.doodle-02,.doodle-03{font-size:50px}
+.match-layout,.safety-layout{grid-template-columns:1fr}
+.profile-stack{height:435px;margin-top:45px}
+.example-card{width:85%;padding:15px;min-height:150px}
+.example-0{left:0;top:55px}
+.example-1{left:9%;top:165px}
+.example-2{left:0;top:275px}
+.example-detail p{margin:6px 0}
+.safety-art{order:2;height:340px}
+.ring-outer{width:300px;height:300px}
+.ring-inner{width:210px;height:210px}
+.safety-copy{padding:0}
+.safety-layout{gap:20px}
+.orbit-a{top:30px}
+.orbit-b{top:110px}
+.orbit-c{bottom:40px}
+.cta-inner{padding-top:75px;padding-bottom:80px}
+.cta-doodle{right:-15px;top:40px}
+.footer-inner{flex-wrap:wrap;gap:3px 17px;padding-top:23px;padding-bottom:28px}
+.footer-inner p{width:60%;margin:0}
+.footer-inner span{width:100%;margin:3px 0 0!important}
+.dashboard{padding:32px 0 65px}
+.onboarding{padding:20px}
+.onboarding-grid{grid-template-columns:1fr}
+.onboard-item{min-height:auto}
+.dashboard-grid{grid-template-columns:1fr}
+.dash-side{display:flex;overflow:auto;padding:7px}
+.dash-side button{white-space:nowrap;padding:10px}
+.dash-content{padding:22px}
+.candidate-grid,.field-pair{grid-template-columns:1fr}
+.candidate-detail-hero{align-items:flex-start;flex-direction:column;padding:20px;gap:17px}
+.detail-avatar{width:100%;height:220px}
+.detail-heading h2{font-size:27px}
+.detail-preferences{grid-template-columns:1fr}
+.auth-modal{padding:29px 25px}
+}
+@media(max-width:400px){.hero h1{font-size:43px}
+.hero-buttons{gap:14px}
+.hero-buttons .pill-btn{padding:14px 18px;font-size:12px}
+.hero-art{height:310px}
+.profile-stack{height:410px}
+.example-card{width:90%}
+}
+@media(max-width:360px){.brand-tagline{width:80px}}
+
